@@ -1,0 +1,10 @@
+streamlit
+pandas
+librosa
+numpy
+sklearn
+matplotlib
+tensorflow
+keras
+Ipython
+opencv-python
