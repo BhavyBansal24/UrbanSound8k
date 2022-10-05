@@ -1,7 +1,7 @@
 pip==22.2.2
 ipython==8.5.0
 keras==2.10.0
-librosa==0.6
+librosa==0.6.3
 soundfile
 matplotlib==3.5.2
 numpy==1.22.4
