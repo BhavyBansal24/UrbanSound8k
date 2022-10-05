@@ -10,8 +10,6 @@ pandas==1.4.4
 scikit_learn==1.1.2
 streamlit==1.13.0
 tensorflow==2.10.0
-gcc_linux-64
-gxx_linux-64
 compilers
 c-compiler
 cxx-compiler
