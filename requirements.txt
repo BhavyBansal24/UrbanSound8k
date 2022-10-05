@@ -9,3 +9,4 @@ pandas==1.4.4
 scikit_learn==1.1.2
 streamlit==1.13.0
 tensorflow==2.10.0
+opencv-python-headless
