@@ -8,7 +8,7 @@
 * classes are : ['dog_bark' , 'children_playing' , 'car_horn' , 'air_conditioner' , 'street_music' , 'gun_shot' , 'siren' , 'engine_idling' , 'jackhammer' , 'drilling']
 * Below that you can also view other analysis such as spectographs and more.
 
-## Do star my repository, If you love my work.
+### Do star my repository, If you love my work.
 ## Moreover don't forget to follow me on :
 * [Linkedin](https://www.linkedin.com/in/bhavybansal24/)
 * [Twitter](https://twitter.com/BhavyBansal_24)
