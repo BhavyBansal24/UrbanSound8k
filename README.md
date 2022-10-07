@@ -1,16 +1,16 @@
 # UrbanSound8k
-![](https://storage.googleapis.com/kaggle-datasets-images/500970/928025/539a42be171f3c67de699ce7a29324d9/dataset-cover.jpeg?t=2020-02-04-18-55-17)
+![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/cover.jpeg?raw=true)
 #### Project is live at : [UrbanSound8k](https://bhavybansal24-urbansound8k-app-0fbs20.streamlitapp.com/)
 
 ## How to use UrbanSound8k web-app:
-* Open the above [here](https://bhavybansal24-urbansound8k-app-0fbs20.streamlitapp.com/)
+* Click [here](https://bhavybansal24-urbansound8k-app-0fbs20.streamlitapp.com/)
 * Click on Browse Files
-![alt text](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/WhatsApp%20Image%202022-10-08%20at%2000.23.50.jpeg?raw=true)
+![alt text](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/browse.jpeg?raw=true)
 * Upload a (.wav) audio file, Model will classify your uploaded sound from the classes.
 * classes are : ['dog_bark' , 'children_playing' , 'car_horn' , 'air_conditioner' , 'street_music' , 'gun_shot' , 'siren' , 'engine_idling' , 'jackhammer' , 'drilling']
-![.wav image](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/WhatsApp%20Image%202022-10-08%20at%2000.28.14.jpeg?raw=true)
+![.wav image](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/open.jpeg?raw=true)
 * After uploading completes, you can see the prediction on right side as shown below
-![prediction](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/WhatsApp%20Image%202022-10-08%20at%2000.29.22.jpeg?raw=true)
+![prediction](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/prediction.jpeg?raw=true)
 * Below that you can also view other analysis such as spectrogram, Harmonic Percussive Separation, Mel-Frequency Cepstral Coefficients (MFCC), Zero Crossing Rate and many more.
 
 ********************************************************
