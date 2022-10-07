@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 
-st.sidebar.title("UrbanSound8k Audio Classifer")
+st.sidebar.title("UrbanSound8k Audio Classifier")
 
 Uploaded_file = st.sidebar.file_uploader("Insert File", type='.wav')
 if Uploaded_file is not None:
