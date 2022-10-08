@@ -22,16 +22,16 @@
 ********************************************************
 ## Model Results :
 * Model Accuracy
-![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ModelAccuracy.png?raw=true)
+  - ![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ModelAccuracy.png?raw=true)
 * Model Loss
-![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ModelLoss.png?raw=true)
+  - ![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ModelLoss.png?raw=true)
 
 ********************************************************
 ## Model Evaluation
 * Classification Report
-![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ClassificationReport.jpeg?raw=true)
+  - ![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ClassificationReport.jpeg?raw=true)
 * Confusion Matrix
-![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ConfusionMatrix.png?raw=true)
+  - ![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ConfusionMatrix.png?raw=true)
 
 ********************************************************
 ## Dataset used for Training model:
