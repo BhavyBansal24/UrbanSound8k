@@ -12,11 +12,45 @@
 * After uploading completes, you can see the prediction on right side as shown below
 ![prediction](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/prediction.jpeg?raw=true)
 * Below that you can also view other analysis such as spectrogram, Harmonic Percussive Separation, Mel-Frequency Cepstral Coefficients (MFCC), Zero Crossing Rate and many more.
+********************************************************
+## Model Details :
+* Sequential model
+![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/model.jpeg?raw=true)
+* Training of 15 Epoch
+![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/training.jpeg?raw=true)
 
 ********************************************************
-## Dataset for Training model:
+## Model Results :
+* Model Accuracy
+![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ModelAccuracy.png?raw=true)
+* Model Loss
+![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ModelLoss.png?raw=true)
+
+********************************************************
+## Model Evaluation
+* Classification Report
+![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ClassificationReport.jpeg?raw=true)
+* Confusion Matrix
+![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/ConfusionMatrix.png?raw=true)
+
+********************************************************
+## Dataset used for Training model:
 * Dataset is taken from kaggle and link for dataset is [here](https://www.kaggle.com/datasets/chrisfilo/urbansound8k)
 * This dataset contains 8732 labeled sound of urban sounds from 10 classes: air_conditioner, car_horn, children_playing, dog_bark, drilling, enginge_idling, gun_shot, jackhammer, siren, and street_music
+
+********************************************************
+## Libraries and framework used in project :
+* [Pandas](https://pandas.pydata.org/)
+* [Librosa](https://librosa.org/doc/latest/index.html)
+* [Numpy](https://numpy.org/)
+* [Seaborn](https://seaborn.pydata.org/)
+* [Sklearn](https://scikit-learn.org/stable/)
+* [Matplotlib](https://matplotlib.org/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Keras](https://keras.io/)
+* [Ipython](https://ipython.org/)
+* [OpenCV](https://opencv.org/)
+
 ********************************************************
 ## Do check my Kaggle (ipynb)Notebook:
 * Link to my kaggle notebook is [here](https://www.kaggle.com/code/bhavybansal/urbansound8k-cnn-classifier)
