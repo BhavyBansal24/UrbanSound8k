@@ -32,7 +32,7 @@ if Uploaded_file is not None:
 
     # STFT
     st.title('spectrogram')
-    X_db = helper.Spectrogram(raw, sample_rate)
+    X_db = helper.Spectrogram(raw)
     fig, ax = plt.subplots()
     ax = idp.specshow(X_db, sr=sample_rate, x_axis="time", y_axis="hz")
     plt.title("Input Audio's Spectrogram")
@@ -67,7 +67,7 @@ if Uploaded_file is not None:
 
     # Zero-Crossing
     st.title('Zero Crossing Rate')
-    zero_crossing = helper.ZCR(raw, sample_rate)
+    zero_crossing = helper.ZCR(raw)
     fig, ax = plt.subplots()
     ax.plot(raw[4700:5500])
     plt.title("Zero Crossing Rate")
@@ -102,7 +102,7 @@ if Uploaded_file is not None:
 
     # RMSE & log power spectrogram
     st.title('RMSE & log power spectrogram')
-    S, RMSEn, times = helper.RMSE(raw, sample_rate)
+    S, RMSEn, times = helper.RMSE(raw)
     col1, col2 = st.columns(2)
     with col1:
         fig, ax = plt.subplots()
