@@ -5,6 +5,7 @@ import helper
 import librosa
 import librosa.display as idp
 import matplotlib.pyplot as plt
+import webbrowser
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 
@@ -124,4 +125,4 @@ if Uploaded_file is not None:
         plt.title("log Power Spectrogram")
         st.pyplot(fig)
 if st.sidebar.button("Github", key="github", help="Click to visit the Github repository"):
-    webbrowser.open('https://github.com/BhavyBansal24/Tomato-Plant-Disease-Detector')
+    webbrowser.open('https://github.com/BhavyBansal24/UrbanSound8k')

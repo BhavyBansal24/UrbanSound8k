@@ -12,3 +12,4 @@ streamlit==1.13.0
 tensorflow==2.10.0
 opencv-python-headless
 protobuf==3.12.4
+webbrowser==3.5
