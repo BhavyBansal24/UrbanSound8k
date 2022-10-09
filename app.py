@@ -1,4 +1,5 @@
 import streamlit as st
+from pydub import AudioSegment
 import numpy as np
 import helper
 import librosa
@@ -9,9 +10,16 @@ le = LabelEncoder()
 
 st.sidebar.title("UrbanSound8k Audio Classifier")
 
-Uploaded_file = st.sidebar.file_uploader("Insert File", type='.wav')
+Uploaded_file = st.sidebar.file_uploader("Insert File", type=['.wav','.mp3'])
 if Uploaded_file is not None:
     # st.write(Uploaded_file)
+    
+    # files                                                                       
+    if Uploaded_file.name.endswith('.mp3'):
+    # convert wav to mp3
+        sound = AudioSegment.from_mp3(Uploaded_file)
+        sound.export("audio.wav", format="wav")
+        Uploaded_file = "audio.wav"
     raw, sample_rate = helper.preprocess(Uploaded_file)
 
     # Play Audio File
