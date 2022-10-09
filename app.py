@@ -123,3 +123,5 @@ if Uploaded_file is not None:
             S, ref=np.max), y_axis='log', x_axis='time')
         plt.title("log Power Spectrogram")
         st.pyplot(fig)
+if st.sidebar.button("Github", key="github", help="Click to visit the Github repository"):
+    webbrowser.open('https://github.com/BhavyBansal24/Tomato-Plant-Disease-Detector')
