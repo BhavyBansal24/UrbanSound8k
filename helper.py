@@ -51,7 +51,7 @@ def RMSE(raw):
     return S, RMSEn, times
     
 def audio_to_result(filename):
-    model_saved = models.load_model('hello')
+    model_saved = models.load_model('Saved_Model')
     raw , sr = librosa.load(filename, res_type='kaiser_fast')
     X_image = librosa.feature.mfcc(y=raw, sr=sr, n_mfcc=40)
     up_width = 173
