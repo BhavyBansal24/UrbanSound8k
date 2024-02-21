@@ -11,7 +11,7 @@
   ```
   git clone https://github.com/BhavyBansal24/UrbanSound8k.git
   docker build -t ultra_sound8k .
-  docker run -dp 8501:8501 --name SoundDetect ultra_sund8k
+  docker run -dp 8501:8501 --name SoundDetect ultra_sound8k
   timeout 2 /nobreak && start http://localhost:8501
 
   ```
