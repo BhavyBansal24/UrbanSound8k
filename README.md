@@ -2,7 +2,7 @@
 
 ![](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/cover.jpeg?raw=true)
 
-#### Project is live at : [UrbanSound8k](https://bhavybansal24-urbansound8k-app-0fbs20.streamlitapp.com/)
+#### Project is live at : [UrbanSound8k](https://urbansound8k.streamlit.app/)
 
 ## Dockerized installation in local machine
 
@@ -18,7 +18,7 @@
 
 ## How to use UrbanSound8k web-app:
 
-- Click [here](https://bhavybansal24-urbansound8k-app-0fbs20.streamlitapp.com/)
+- Click [here](https://urbansound8k.streamlit.app/)
 - Click on Browse Files
   ![alt text](https://github.com/BhavyBansal24/UrbanSound8k/blob/master/extras/browse.jpeg?raw=true)
 - Upload a (.wav) audio file, Model will classify your uploaded sound from the classes.
